@@ -14,3 +14,4 @@ GDATADIR=/g/data3/hh5/tmp/cosima/access-om2/1deg_jra55v13_iaf_spinup1_B1
 mkdir -p ${GDATADIR}
 cd archive
 rsync --exclude "*.nc.*" -av --safe-links --no-g output* ${GDATADIR}
+#rsync -vrltoD --safe-links pbs_logs ${GDATADIR} 
