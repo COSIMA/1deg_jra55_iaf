@@ -6,7 +6,9 @@ install:
 env:
   global:
     - CCONF_DIR=${TRAVIS_BUILD_DIR}
+
 before_script:
     - git clone --depth=1 https://github.com/aidanheerdegen/cleanconfig.git
+
 script:
     - (cd cleanconfig && pytest test.py)
