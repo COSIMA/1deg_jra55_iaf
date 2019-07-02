@@ -15,7 +15,7 @@ env:
     - CCONF_DIR=${TRAVIS_BUILD_DIR}
 
 before_script:
-    - git clone https://github.com/aidanheerdegen/cleanconfig.git
+    - git clone https://github.com/COSIMA/cleanconfig.git
 
 script:
     - (cd cleanconfig && pytest test.py)
