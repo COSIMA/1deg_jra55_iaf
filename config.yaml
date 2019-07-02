@@ -13,7 +13,7 @@ queue: normalbw
 platform:
     nodesize: 28
 
-# Force payu to always fine, and save, files in this short project 
+# Force payu to always find, and save, files in this short project 
 # directory
 # shortpath: /short/w35
 
@@ -44,7 +44,7 @@ submodels:
 runlog: true
 stacksize: unlimited
 collate:
-   exe: /short/public/access-om2/bin/mppnccombine
+   exe: mppnccombine
    walltime: 1:00:00
    queue: copyq
    mem: 4GB
