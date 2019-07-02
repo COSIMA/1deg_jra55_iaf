@@ -15,7 +15,7 @@ platform:
 
 # Force payu to always find, and save, files in this short project 
 # directory
-# shortpath: /short/w35
+shortpath: /short/w35
 
 # Model configuration
 name: common
@@ -44,7 +44,7 @@ submodels:
 runlog: true
 stacksize: unlimited
 collate:
-   exe: mppnccombine
+   exe: /short/public/access-om2/bin/mppnccombine
    walltime: 1:00:00
    queue: copyq
    mem: 4GB
