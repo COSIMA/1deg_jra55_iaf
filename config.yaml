@@ -3,7 +3,7 @@
 # and change project code as appropriate
 # project: w35
 
-walltime: 1:00:00
+walltime: 3:00:00
 jobname: 1deg_jra55_iaf
 ncpus: 252
 mem: 500GB
@@ -20,19 +20,19 @@ input: /short/public/access-om2/input_236a3011/common_1deg_jra55
 submodels:
     - name: atmosphere
       model: yatm
-      exe: /short/public/access-om2/bin/yatm_b6caeab.exe
+      exe: /short/v45/aek156/sources/chuckable/access-om2-raijin/bin/yatm_2cc76e2.exe
       input: /short/public/access-om2/input_236a3011/yatm_1deg
       ncpus: 1
 
     - name: ocean
       model: mom
-      exe: /short/public/access-om2/bin/fms_ACCESS-OM_50dc61e_libaccessom2_b6caeab.x
+      exe: /short/v45/aek156/sources/chuckable/access-om2-raijin/bin/fms_ACCESS-OM_46774ee_libaccessom2_2cc76e2.x
       input: /short/public/access-om2/input_236a3011/mom_1deg
       ncpus: 216
 
     - name: ice
       model: cice5
-      exe: /short/public/access-om2/bin/cice_auscom_360x300_24p_47650cc_libaccessom2_b6caeab.exe
+      exe: /short/v45/aek156/sources/chuckable/access-om2-raijin/bin/cice_auscom_360x300_24p_dd02b01_libaccessom2_2cc76e2.exe
       input: /short/public/access-om2/input_236a3011/cice_1deg
       ncpus: 24
 
