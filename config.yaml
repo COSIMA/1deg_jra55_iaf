@@ -1,9 +1,9 @@
 # PBS configuration
 # If submitting to a different project to your default uncomment line below 
 # and change project code as appropriate
-# project: w35
+project: x77
 
-walltime: 1:00:00
+walltime: 3:00:00
 jobname: 1deg_jra55_iaf
 ncpus: 252
 mem: 500GB
@@ -11,7 +11,7 @@ queue: express
 
 # Force payu to always find, and save, files in this short project 
 # directory
-# shortpath: /scratch/w35
+shortpath: /scratch/x77
 
 # Model configuration
 name: common
