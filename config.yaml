@@ -41,7 +41,8 @@ submodels:
 
     - name: ice
       model: cice5
-      exe: /g/data/ik11/inputs/access-om2/bin/cice_auscom_360x300_24p_597e4561_libaccessom2_4198e150.exe
+      #exe: /g/data/ik11/inputs/access-om2/bin/cice_auscom_360x300_24p_597e4561_libaccessom2_4198e150.exe
+      exe: /home/599/nah599/access-om2/src/cice5/build_auscom_360x300_24p/cice_auscom_360x300_24p.exe
       input: /g/data/ik11/inputs/access-om2/input_236a3011/cice_1deg
       ncpus: 24
 
@@ -54,7 +55,7 @@ collate:
   exe: /g/data/ik11/inputs/access-om2/bin/mppnccombine
 
 # Misc
-runlog: true
+runlog: false
 stacksize: unlimited
 qsub_flags: -W umask=027
 # set number of cores per node (28 for normalbw, 48 for normal on gadi)
