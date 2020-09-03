@@ -3459,6 +3459,12 @@ work/ice/RESTART/co2_obs.nc:
   hashes:
     binhash: 285e7515d9a94d154c947a2f63b1ef3f
     md5: c564594b12e42d92b829fa7be3ee5b02
+work/ice/RESTART/co2_obs_omip2_1-3.nc:
+  copy: true
+  fullpath: /scratch/v45/hh0162/access-om2/control/1deg_jra55_iaf_omip2/input_omip2_bgc/co2_obs_omip2_1-3.nc
+  hashes:
+    binhash: b9e1cd3c0e3af39b1c845bef51eb2c01
+    md5: a956460457c79590f018cad4efa4de3f
 work/ice/RESTART/csiro_bgc.res.nc:
   copy: true
   fullpath: /scratch/v45/hh0162/access-om2/control/1deg_jra55_iaf_omip2/input_omip2_bgc/csiro_bgc.res.nc
@@ -3575,6 +3581,11 @@ work/ocean/INPUT/co2_obs.nc:
   hashes:
     binhash: 285e7515d9a94d154c947a2f63b1ef3f
     md5: c564594b12e42d92b829fa7be3ee5b02
+work/ocean/INPUT/co2_obs_omip2_1-3.nc:
+  fullpath: /scratch/v45/hh0162/access-om2/control/1deg_jra55_iaf_omip2/input_omip2_bgc/co2_obs_omip2_1-3.nc
+  hashes:
+    binhash: b9e1cd3c0e3af39b1c845bef51eb2c01
+    md5: a956460457c79590f018cad4efa4de3f
 work/ocean/INPUT/csiro_bgc.res.nc:
   fullpath: /scratch/v45/hh0162/access-om2/control/1deg_jra55_iaf_omip2/input_omip2_bgc/csiro_bgc.res.nc
   hashes:
