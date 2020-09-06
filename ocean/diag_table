@@ -39,6 +39,9 @@ ACCESS-OM2-BGC
 "ocean_model","surface_o2","surface_o2",         "ocean_bgc_mth","all",.true.,"none",2
 "ocean_model","surface_no3","surface_no3",       "ocean_bgc_mth","all",.true.,"none",2
 "ocean_model","surface_phy","surface_phy",       "ocean_bgc_mth","all",.true.,"none",2
+"ocean_model","surface_zoo","surface_zoo",       "ocean_bgc_mth","all",.true.,"none",2
+"ocean_model","surface_det","surface_det",       "ocean_bgc_mth","all",.true.,"none",2
+"ocean_model","surface_fe","surface_fe",       "ocean_bgc_mth","all",.true.,"none",2
 "ocean_model","adic","adic",   "ocean_bgc_mth","all",.true.,"none",2
 "ocean_model","alk","alk",      "ocean_bgc_mth","all",.true.,"none",2
 "ocean_model","no3","no3",       "ocean_bgc_mth","all",.true.,"none",2
@@ -55,7 +58,7 @@ ACCESS-OM2-BGC
 "ocean_model","o2","o2",       "ocean_bgc_mth","all",.true.,"none",2
 "ocean_model","fe","fe",       "ocean_bgc_mth","all",.true.,"none",2
 
-# daily bgc fields for omip2 (ACCESS-OM2 exclusive, only for the last cycle of omip2)
+# daily bgc fields for omip2
 
 "ocean_model","surface_phy","surface_phy", "ocean_bgc_daily","all",.true.,"none",2
 
