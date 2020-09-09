@@ -3441,6 +3441,24 @@ work/atmosphere/INPUT/vas_input4MIPs_atmosphericState_OMIP_MRI-JRA55-do-1-4-0_gr
   hashes:
     binhash: 987ff85784eff1316d6929f631fe1426
     md5: b0e514bfac0d9dfbf538d36b8ecd17f9
+work/ice/RESTART/co2_obs_omip2_4.nc:
+  copy: true
+  fullpath: /scratch/v45/hh0162/access-om2/control/1deg_jra55_iaf_omip2/input_omip2_bgc/co2_obs_omip2_4.nc
+  hashes:
+    binhash: dbc76d636d979ac95bb93571f17cf926
+    md5: ece520e7cc4a4897598babd69c673bff
+work/ice/RESTART/co2_obs_omip2_5.nc:
+  copy: true
+  fullpath: /scratch/v45/hh0162/access-om2/control/1deg_jra55_iaf_omip2/input_omip2_bgc/co2_obs_omip2_5.nc
+  hashes:
+    binhash: ffc785b87872f7cb29fbcfe577d7be33
+    md5: 1667f38f0f73fcfd7cbcda3c038c4b57
+work/ice/RESTART/co2_obs_omip2_6.nc:
+  copy: true
+  fullpath: /scratch/v45/hh0162/access-om2/control/1deg_jra55_iaf_omip2/input_omip2_bgc/co2_obs_omip2_6.nc
+  hashes:
+    binhash: 133bf22395a923c23ef4ce7e7c59e198
+    md5: 238fee6f861dfbed6e375279d760cb90
 work/ocean/INPUT/bgc_param.nc:
   fullpath: /scratch/v45/hh0162/access-om2/control/1deg_jra55_iaf_omip2/input_omip2_bgc/bgc_param.nc
   hashes:
@@ -3464,8 +3482,23 @@ work/ocean/INPUT/co2_obs.nc:
 work/ocean/INPUT/co2_obs_omip2_1-3.nc:
   fullpath: /scratch/v45/hh0162/access-om2/control/1deg_jra55_iaf_omip2/input_omip2_bgc/co2_obs_omip2_1-3.nc
   hashes:
-    binhash: b9e1cd3c0e3af39b1c845bef51eb2c01
+    binhash: 7cd7063732c8a5948c2fc445ce274494
     md5: a956460457c79590f018cad4efa4de3f
+work/ocean/INPUT/co2_obs_omip2_4.nc:
+  fullpath: /scratch/v45/hh0162/access-om2/control/1deg_jra55_iaf_omip2/input_omip2_bgc/co2_obs_omip2_4.nc
+  hashes:
+    binhash: dbc76d636d979ac95bb93571f17cf926
+    md5: ece520e7cc4a4897598babd69c673bff
+work/ocean/INPUT/co2_obs_omip2_5.nc:
+  fullpath: /scratch/v45/hh0162/access-om2/control/1deg_jra55_iaf_omip2/input_omip2_bgc/co2_obs_omip2_5.nc
+  hashes:
+    binhash: ffc785b87872f7cb29fbcfe577d7be33
+    md5: 1667f38f0f73fcfd7cbcda3c038c4b57
+work/ocean/INPUT/co2_obs_omip2_6.nc:
+  fullpath: /scratch/v45/hh0162/access-om2/control/1deg_jra55_iaf_omip2/input_omip2_bgc/co2_obs_omip2_6.nc
+  hashes:
+    binhash: 133bf22395a923c23ef4ce7e7c59e198
+    md5: 238fee6f861dfbed6e375279d760cb90
 work/ocean/INPUT/csiro_bgc.res.nc:
   fullpath: /scratch/v45/hh0162/access-om2/control/1deg_jra55_iaf_omip2/input_omip2_bgc/csiro_bgc.res.nc
   hashes:
