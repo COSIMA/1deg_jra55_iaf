@@ -162,11 +162,11 @@ gasx_from_file = .false.
 ice_file4gasx = .false.
 zero_floor = .true.
 
-atmpress_file = xxxINPUT/ocmip2_press_monthly_om2.nc
+atmpress_file = INPUT/ocmip2_press_monthly_om2.nc
 atmpress_name = p
-pistonveloc_file = xxxINPUT/ocmip2_xkw_monthly_om2.nc
+pistonveloc_file = INPUT/ocmip2_xkw_monthly_om2.nc
 pistonveloc_name = xkw
-seaicefract_file = xxxINPUT/ocmip2_fice_monthly_om1p5_bc.nc
+seaicefract_file = INPUT/ocmip2_fice_monthly_om1p5_bc.nc
 seaicefract_name = fice
 aco2_file = INPUT/co2_obs_omip2_1-3.nc
 aco2_name = co2
