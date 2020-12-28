@@ -3481,6 +3481,16 @@ work/ocean/INPUT/co2_obs_omip2_6.nc:
   hashes:
     binhash: c362cf7f58dc6a4a7d5effac8a55e275
     md5: 238fee6f861dfbed6e375279d760cb90
+work/ocean/INPUT/csiro_bgc.res.nc:
+  fullpath: /scratch/v45/hh0162/access-om2/control/1deg_jra55_iaf_omip2-fixed/input_omip2_bgc/csiro_bgc.res.nc
+  hashes:
+    binhash: 1fb85bf955fde4ec0e128b0513481e3e
+    md5: 939ad3d5667e1b42086fad7a86462d00
+work/ocean/INPUT/csiro_bgc_sediment.res.nc:
+  fullpath: /scratch/v45/hh0162/access-om2/control/1deg_jra55_iaf_omip2-fixed/input_omip2_bgc/csiro_bgc_sediment.res.nc
+  hashes:
+    binhash: a76988e7c11ce251cf81da582914f57f
+    md5: 47d3157c3fe17c8e3581350295c1413c
 work/ocean/INPUT/diag_table:
   fullpath: /scratch/v45/hh0162/access-om2/control/1deg_jra55_iaf_omip2-fixed/input_omip2_bgc/diag_table
   hashes:
@@ -3536,6 +3546,11 @@ work/ocean/INPUT/ocean_mosaic.nc:
   hashes:
     binhash: 6aadd388078defe3f80df6f3de77b4bd
     md5: cb42e630ee31d3686156fcbdc2f9d07c
+work/ocean/INPUT/ocean_temp_salt.res.nc:
+  fullpath: /g/data/ik11/inputs/access-om2/input_20201102/mom_1deg/ocean_temp_salt.res.nc
+  hashes:
+    binhash: 1530c856cbbc9b5073bdf3e7beb72cd7
+    md5: c5f7e60b5427a4442f111adc65a2d067
 work/ocean/INPUT/ocean_vgrid.nc:
   fullpath: /g/data/ik11/inputs/access-om2/input_20201102/mom_1deg/ocean_vgrid.nc
   hashes:
