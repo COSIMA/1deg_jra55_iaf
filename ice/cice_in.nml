@@ -9,7 +9,7 @@
     dumpfreq          = 'y'
     dumpfreq_n        = 1
     hist_avg          = .true.
-    histfreq          = 'x', 'm', 'x', 'x', 'x'
+    histfreq          = 'm', 'x', 'x', 'x', 'x'
     histfreq_n        = 1, 1, 1, 1, 1
     history_chunksize_x = 180
     history_chunksize_y = 150
