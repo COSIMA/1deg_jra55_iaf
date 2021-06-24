@@ -367,17 +367,17 @@ ACCESS-OM2
 
 # daily means output every 5 days
 
-"ocean-3d-sea_level-1-daily-mean-5-daily-ym%4yr%2mo", 1, "days", 1, "days", "time", 5, "days", "1900 1 1 0 0 0", 1, "days"
-"ocean_model", "sea_level", "sea_level", "ocean-3d-sea_level-1-daily-mean-5-daily-ym%4yr%2mo", "all", "average", "none", 2
+"ocean-3d-sea_level-1-daily-mean-5-daily-ymd%4yr%2mo%2dy", 1, "days", 1, "days", "time", 5, "days", "1900 1 1 0 0 0", 1, "days"
+"ocean_model", "sea_level", "sea_level", "ocean-3d-sea_level-1-daily-mean-5-daily-ymd%4yr%2mo%2dy", "all", "average", "none", 2
 
-"ocean-3d-surface_pot_temp-1-daily-mean-5-daily-ym%4yr%2mo", 1, "days", 1, "days", "time", 5, "days", "1900 1 1 0 0 0", 1, "days"
-"ocean_model", "surface_pot_temp", "surface_pot_temp", "ocean-3d-surface_pot_temp-1-daily-mean-5-daily-ym%4yr%2mo", "all", "average", "none", 2
+"ocean-3d-surface_pot_temp-1-daily-mean-5-daily-ymd%4yr%2mo%2dy", 1, "days", 1, "days", "time", 5, "days", "1900 1 1 0 0 0", 1, "days"
+"ocean_model", "surface_pot_temp", "surface_pot_temp", "ocean-3d-surface_pot_temp-1-daily-mean-5-daily-ymd%4yr%2mo%2dy", "all", "average", "none", 2
 
-"ocean-3d-surface_salt-1-daily-mean-5-daily-ym%4yr%2mo", 1, "days", 1, "days", "time", 5, "days", "1900 1 1 0 0 0", 1, "days"
-"ocean_model", "surface_salt", "surface_salt", "ocean-3d-surface_salt-1-daily-mean-5-daily-ym%4yr%2mo", "all", "average", "none", 2
+"ocean-3d-surface_salt-1-daily-mean-5-daily-ymd%4yr%2mo%2dy", 1, "days", 1, "days", "time", 5, "days", "1900 1 1 0 0 0", 1, "days"
+"ocean_model", "surface_salt", "surface_salt", "ocean-3d-surface_salt-1-daily-mean-5-daily-ymd%4yr%2mo%2dy", "all", "average", "none", 2
 
-"ocean-3d-usurf-1-daily-mean-5-daily-ym%4yr%2mo", 1, "days", 1, "days", "time", 5, "days", "1900 1 1 0 0 0", 1, "days"
-"ocean_model", "usurf", "usurf", "ocean-3d-usurf-1-daily-mean-5-daily-ym%4yr%2mo", "all", "average", "none", 2
+"ocean-3d-usurf-1-daily-mean-5-daily-ymd%4yr%2mo%2dy", 1, "days", 1, "days", "time", 5, "days", "1900 1 1 0 0 0", 1, "days"
+"ocean_model", "usurf", "usurf", "ocean-3d-usurf-1-daily-mean-5-daily-ymd%4yr%2mo%2dy", "all", "average", "none", 2
 
-"ocean-3d-vsurf-1-daily-mean-5-daily-ym%4yr%2mo", 1, "days", 1, "days", "time", 5, "days", "1900 1 1 0 0 0", 1, "days"
-"ocean_model", "vsurf", "vsurf", "ocean-3d-vsurf-1-daily-mean-5-daily-ym%4yr%2mo", "all", "average", "none", 2
+"ocean-3d-vsurf-1-daily-mean-5-daily-ymd%4yr%2mo%2dy", 1, "days", 1, "days", "time", 5, "days", "1900 1 1 0 0 0", 1, "days"
+"ocean_model", "vsurf", "vsurf", "ocean-3d-vsurf-1-daily-mean-5-daily-ymd%4yr%2mo%2dy", "all", "average", "none", 2
