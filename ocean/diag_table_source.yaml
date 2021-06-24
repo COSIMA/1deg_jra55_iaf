@@ -14,7 +14,7 @@
 # You're unlikely to need to change any of the global_defaults.
 global_defaults:
 # global_section:
-    title: ACCESS-OM2-01  # any string
+    title: ACCESS-OM2  # any string
     base_date: [ 1900, 1, 1, 0, 0, 0 ]  # reference time used for the time units. six integers: year, month, day, hour, minute, second
 # file section:
     file_name:  # file name (without trailing ".nc") is constructed from these components,
@@ -355,3 +355,31 @@ diag_table:
             # u:
             # v:
             # vorticity_z:
+    'daily means output every 5 days':
+        defaults:
+            output_freq: 1  # integer: output sampling frequency in output_freq_units (0: every timestep; -1: only at end of run)
+            output_freq_units: days  # time units for output: years, months, days, hours, minutes, or seconds
+            new_file_freq: 5  # optional integer: frequency (in new_file_freq_units) for closing the existing file, and creating a new file
+            new_file_freq_units: days  # time units for new_file_freq: years, months, days, hours, minutes, or seconds (optional; required if and only if new_file_freq specified)
+            start_time: [ 1900, 1, 1, 0, 0, 0 ]  # Time to start the file for the first time. The format of this string is the same as base_date (optional; requires new_file_freq, new_file_freq_units)
+            file_duration: 1  # integer: How long file should receive data after start time (optional; requires new_file_freq, new_file_freq_units, start_time)
+            file_duration_units: days  # units for file_duration: years, months, days, hours, minutes, or seconds (optional; required if and only if file_duration specified)
+            file_name:  # file name (without trailing ".nc") is constructed from these components,
+                # separated by file_name_separator, as per https://github.com/COSIMA/access-om2/issues/185
+                # All these components (other than field_name) must be names that exist in global_defaults.
+                # If file_name_date or file_name_date_section are used, it must be the last item.
+                - file_name_prefix
+                - file_name_dimension
+                - field_name  # substituted by field name in diag_table section below
+                - output_freq
+                - output_freq_units
+                - reduction_method
+                - new_file_freq
+                - new_file_freq_units
+                - file_name_date
+        fields:
+            sea_level:
+            surface_pot_temp:
+            surface_salt:
+            usurf:
+            vsurf:
