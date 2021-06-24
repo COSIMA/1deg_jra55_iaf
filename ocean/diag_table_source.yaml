@@ -14,7 +14,7 @@
 # You're unlikely to need to change any of the global_defaults.
 global_defaults:
 # global_section:
-    title: ACCESS-OM2  # any string
+    title: ACCESS-OM2-01  # any string
     base_date: [ 1900, 1, 1, 0, 0, 0 ]  # reference time used for the time units. six integers: year, month, day, hour, minute, second
 # file section:
     file_name:  # file name (without trailing ".nc") is constructed from these components,
@@ -34,8 +34,8 @@ global_defaults:
     file_format: 1  # integer, must be 1, specifying NetCDF (the only format currently supported)
     time_axis_units: days  # time units for the output file time axis: years, months, days, hours, minutes, or seconds
     time_axis_name: time  # must be "time" (case-insensitive)
-    new_file_freq: 1  # optional integer: frequency (in new_file_freq_units) for closing the existing file, and creating a new file
-    new_file_freq_units: years  # time units for new_file_freq: years, months, days, hours, minutes, or seconds (optional; required if and only if new_file_freq specified)
+    new_file_freq: 3  # optional integer: frequency (in new_file_freq_units) for closing the existing file, and creating a new file
+    new_file_freq_units: months  # time units for new_file_freq: years, months, days, hours, minutes, or seconds (optional; required if and only if new_file_freq specified)
     start_time:  # Time to start the file for the first time. The format of this string is the same as base_date (optional; requires new_file_freq, new_file_freq_units)
     file_duration:  # integer: How long file should receive data after start time (optional; requires new_file_freq, new_file_freq_units, start_time)
     file_duration_units:  # units for file_duration: years, months, days, hours, minutes, or seconds (optional; required if and only if file_duration specified)
@@ -133,7 +133,7 @@ diag_table:
             hu:
             kmt:
             kmu:
-    'monthly 3d fields':
+    'monthly 3d fields':  # should be 3-monthly during spinup
         defaults:  # these can be overridden for individual fields below
             file_name_dimension: 3d  # descriptor for filename, e.g. 3d, 2d, scalar
             output_freq: 1  # integer: output sampling frequency in output_freq_units (0: every timestep; -1: only at end of run)
@@ -157,9 +157,9 @@ diag_table:
             # tx_trans_rho:
             # tx_trans_submeso:
             tx_trans:
-            ty_trans_gm:
+            # ty_trans_gm:
             ty_trans_nrho_submeso:
-            ty_trans_rho_gm:
+            # ty_trans_rho_gm:
             ty_trans_rho:
             ty_trans_submeso:
             ty_trans:
@@ -177,14 +177,27 @@ diag_table:
         fields:
             u:
             v:
+    'daily 3d fields':
+        defaults:  # these can be overridden for individual fields below
+            file_name_dimension: 3d  # descriptor for filename, e.g. 3d, 2d, scalar
+            output_freq: 1  # integer: output sampling frequency in output_freq_units (0: every timestep; -1: only at end of run)
+            output_freq_units: days  # time units for output: years, months, days, hours, minutes, or seconds
+            new_file_freq: 1  # optional integer: frequency (in new_file_freq_units) for closing the existing file, and creating a new file
+            new_file_freq_units: months  # time units for new_file_freq: years, months, days, hours, minutes, or seconds (optional; required if and only if new_file_freq specified)
+        fields:
+            # salt:
+            # temp:
+            # u:
+            # v:
+            # wt:
     'monthly 2d fields':
         defaults:  # these can be overridden for individual fields below
             file_name_dimension: 2d  # descriptor for filename, e.g. 3d, 2d, scalar
             output_freq: 1  # integer: output sampling frequency in output_freq_units (0: every timestep; -1: only at end of run)
             output_freq_units: months  # time units for output: years, months, days, hours, minutes, or seconds
         fields:
-            agm:
-            aredi:
+            # agm:
+            # aredi:
             bmf_u:
             bmf_v:
             ekman_we:
@@ -221,13 +234,13 @@ diag_table:
             tau_y:
             temp_int_rhodz:
             temp_xflux_adv_int_z:
-            temp_xflux_gm_int_z:
-            temp_xflux_ndiffuse_int_z:
-            temp_xflux_submeso_int_z:
+            # temp_xflux_gm_int_z:
+            # temp_xflux_ndiffuse_int_z:
+            # temp_xflux_submeso_int_z:
             temp_yflux_adv_int_z:
-            temp_yflux_gm_int_z:
-            temp_yflux_ndiffuse_int_z:
-            temp_yflux_submeso_int_z:
+            # temp_yflux_gm_int_z:
+            # temp_yflux_ndiffuse_int_z:
+            # temp_yflux_submeso_int_z:
             tx_trans_int_z:
             ty_trans_int_z:
             wfiform:
