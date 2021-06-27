@@ -355,8 +355,9 @@ diag_table:
             # u:
             # v:
             # vorticity_z:
-    'daily means output every 5 days':
+    'daily 2d means output every 5 days':
         defaults:
+            file_name_dimension: 2d  # descriptor for filename, e.g. 3d, 2d, scalar
             output_freq: 1  # integer: output sampling frequency in output_freq_units (0: every timestep; -1: only at end of run)
             output_freq_units: days  # time units for output: years, months, days, hours, minutes, or seconds
             new_file_freq: 5  # optional integer: frequency (in new_file_freq_units) for closing the existing file, and creating a new file
