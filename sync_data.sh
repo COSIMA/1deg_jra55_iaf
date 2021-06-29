@@ -2,7 +2,7 @@
 #PBS -q copyq
 #PBS -l ncpus=1
 #PBS -l wd
-#PBS -l walltime=10:00:00,mem=12GB
+#PBS -l walltime=00:30:00,mem=12GB
 #PBS -l storage=gdata/hh5+gdata/ik11+gdata/cj50+scratch/v45+scratch/x77+scratch/g40
 #PBS -N sync
 
@@ -12,7 +12,7 @@
 # but first add an experiment description - see /g/data/ik11/outputs/README
 # and make sure metadata.yaml is correct.
 # DOUBLE-CHECK SYNCDIR PATH IS UNIQUE SO YOU DON'T OVERWRITE EXISTING OUTPUT!
-SYNCDIR=/g/data/ik11/outputs/access-om2/1deg_jra55_iaf_omip2femip_cycle1
+SYNCDIR=/g/data/ik11/outputs/access-om2/1deg_jra55_iaf_omip2_cycle6_bgcinit
 
 exitcode=0
 help=false
