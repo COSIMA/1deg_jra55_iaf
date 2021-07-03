@@ -31,6 +31,16 @@ ACCESS-OM2-BGC
 "ocean_model","caco3","caco3", "ocean_bgc_ann","all",.true.,"none",2
 
 # monthly bgc fields for omip2
+"ocean_model","no3","no3",   "ocean_bgc_mth","all",.true.,"none",2
+"ocean_model","no3_advection","no3_advection",   "ocean_bgc_mth","all",.true.,"none",2
+"ocean_model","no3_horz_advect","no3_horz_advect",   "ocean_bgc_mth","all",.true.,"none",2
+"ocean_model","no3_vert_advect","no3_vert_advect",   "ocean_bgc_mth","all",.true.,"none",2
+"ocean_model","no3_x_adv","no3_x_adv",   "ocean_bgc_mth","all",.true.,"none",2
+"ocean_model","no3_y_adv","no3_y_adv",   "ocean_bgc_mth","all",.true.,"none",2
+"ocean_model","no3_z_adv","no3_z_adv",   "ocean_bgc_mth","all",.true.,"none",2
+"ocean_model","no3_xflux_adv","no3_xflux_adv",   "ocean_bgc_mth","all",.true.,"none",2
+"ocean_model","no3_yflux_adv","no3_yflux_adv",   "ocean_bgc_mth","all",.true.,"none",2
+"ocean_model","no3_zflux_adv","no3_zflux_adv",   "ocean_bgc_mth","all",.true.,"none",2
 
 "ocean_model","surface_adic","surface_adic",   "ocean_bgc_mth","all",.true.,"none",2
 "ocean_model","surface_dic","surface_dic", "ocean_bgc_mth","all",.true.,"none",2
