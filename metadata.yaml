@@ -1,7 +1,9 @@
 contact: Hakase Hayashida
-email: hakase.hayashida@utas.edu.au
-created: 2020-12-09
+email: hakaseh@jamstec.go.jp
+created: 2024-03-28
 description: >-
+  Extension of omip2 for OSNAP submission (2019-2022 using JRA55-do v1.5.0 and v1.5.0.1).
+  NOTE that atmospheric pCO2 was prescribed incorrectly so carbonate chemistry output should not be used.
   1 degree ACCESS-OM2 global model configuration under interannual forcing.
   The configuration is based on that described in Kiss et al. (2020),
   https://doi.org/10.5194/gmd-13-401-2020, but with many improvements.
@@ -28,3 +30,5 @@ keywords:
   - access-om2-1
   - jra55-do-v1.4.0
   - iaf
+  - bgc
+  - omip2
